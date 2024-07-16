@@ -1,7 +1,7 @@
 # BERT-for-Question-Answering
 
 ```
-# Load model directly
+Load model directly
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 
 tokenizer = AutoTokenizer.from_pretrained("deepset/bert-base-cased-squad2")
